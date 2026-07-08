@@ -14,7 +14,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'engineer)))))
+    (is (some? (find-ns 'engineer)))))
 
 ;; mirrors `constraint_solver_coincident`
 (deftest constraint-solver-coincident

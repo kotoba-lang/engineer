@@ -34,5 +34,5 @@ geometric solver, future work if a domain repo needs it).
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```

@@ -24,7 +24,7 @@ Consumed by domain repos (dft/spice/pdk/pnr/bim/rtl/cad/cae-solver/eda) and
 ## Status
 
 Restored — all 8 modules ported from the original 726-line Rust `lib.rs`,
-with all 7 original Rust unit tests mirrored 1:1 in `test/engineer_test.cljc`.
+with all 7 original Rust unit tests mirrored 1:1 in `test/engineer_test.cljk`.
 Pure data + pure functions throughout (no IO/GPU); the constraint solver is a
 status *evaluator* against fixed point positions, matching the original
 Rust's scope (it never implemented iterative Newton-Raphson point relaxation
